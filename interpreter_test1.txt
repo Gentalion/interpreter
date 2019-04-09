@@ -1,0 +1,13 @@
+program {
+	int i = 1, y = 1, in;
+
+	write ("Enter a number");
+
+	read (in);
+	while (i <= in) {
+		y = y * i;
+		i = i + 1;
+	}
+
+	write ("It's factorial is ", y);
+}
